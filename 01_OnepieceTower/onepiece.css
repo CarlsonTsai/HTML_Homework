@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.85em;
+    font-weight: bold;
+    font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, メイリオ, sans-serif;
+}
+#left {
+    position: relative;
+    width: 52%;
+    height: 100%;
+    background-color: #5CB6E7;
+    background-image: url(img/foreign_parts_left.png);
+    background-position: 35px, -30px;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+#right {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top:0px;
+    text-align: center;
+    background-image: url("img/bg_dot.jpg");
+}
+
+#dev_img{
+    padding:50px 70px 15px 70px;
+    
+}
+
+#date_01_img{
+    margin: 30px 0px 40px 0px; 
+}
+#mark_sep_01_img{
+    margin:20px 0px 20px 0px;
+}
+#div_text1{
+    text-align: left;
+    right: 1000px;
+    margin: 60px;
+    
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#tickets:hover{
+    opacity: 0.4;
+}
+
+.Smallprint{
+    font-size: 0.5em; 
+}
+#tb
+{
+	width:100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#tb td
+{
+	border: 1px solid #bbbbbb;
+	padding: 15px;
+}
+
+#tb th
+{
+	background-color:#5CB6E7; 
+	border: 1px solid #bbbbbb;
+	padding: 15px;
+}
+
+#div_copyright{
+    text-align: left;
+	padding: 20px 70px 20px 70px;
+}
