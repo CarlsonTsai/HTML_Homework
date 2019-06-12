@@ -25,21 +25,20 @@ body{
     background-image: url("img/bg_dot.jpg");
 }
 
-#dev_img{
-    padding:50px 70px 15px 70px;
-    
+#div_img{
+    margin: 50px; 
 }
 
 #date_01_img{
-    margin: 30px 0px 40px 0px; 
+    margin: -10px; 
 }
 #mark_sep_01_img{
-    margin:20px 0px 20px 0px;
+    margin:50px
 }
 #div_text1{
     text-align: left;
     right: 1000px;
-    margin: 60px;
+    margin: 50px;
     
 }
 p {
