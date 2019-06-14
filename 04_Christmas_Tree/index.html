@@ -28,7 +28,7 @@
 
         var str =''
 
-        for (let i = 1,j=3; j >= 0; j--, i+=2) {
+        for (let i = 1,j=4; j >= 0; j--, i+=2) {
            for(let a = 0 ;a<j; a++ ){
                 str += `${'&nbsp'}${'&nbsp'}`;
            }
@@ -38,6 +38,29 @@
            str += "<br>";
         }
         document.getElementById('pp').innerHTML = str
+
+
+        var str1 = ''
+        var rows = 5;
+            //列
+            for(var j=1; j<=rows; j++){
+
+                //欄位
+                for(var i=1;i<=(rows*2-1);i++){
+                    //判斷要畫 星星 還是 空白
+                    if( i<=(rows -j) || i>= (rows+j)){
+                        str1 = str1 + "&nbsp" + "&nbsp";
+                    }else{
+                        str1 = str1 + "*";
+                    }
+           
+                }
+                str1 = str1 +"<br>"
+            }
+        
+        
+
+        document.getElementById('ppp').innerHTML = str1
     </script>
 </body>
 </html>
