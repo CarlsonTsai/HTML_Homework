@@ -36,6 +36,9 @@ function numbtn(btn) {
                 deleoOper();
                 break;
         case "%":
+                if(outPut.value.slice(-1) == '+' || outPut.value.slice(-1) == '-' || outPut.value.slice(-1) == '*' || outPut.value.slice(-1) == '/'){
+                    return;
+                }
                 outPut.value == '' ? outPut.value == '' : outPut.value /= 100;
                 break;
         case "+/-":
