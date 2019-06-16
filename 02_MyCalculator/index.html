@@ -4,12 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <title>My Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
-   <p><a href="https://www.desmos.com/scientific" target="_blank">參考網路上面的計算機</a></p>
-    
+    <div id="container">
+        <div id='aa'>
+            <div>
+                <input   id="outPut" value='0' readonly></input>
+            </div>
+            <div id='qq'>
+                <br>
+                <input type="button" value="C" class="button" onClick="numbtn('C')">
+                <input type="button" value="+/-" class="button" onClick="numbtn('+/-')">
+                <input type="button" value="%" class="button" onClick="numbtn('%')">
+                <input type="button" value="/" class="button" onClick="numbtn('/')">
+                <br>
+                <input type="button" value="7" class="button" onClick="numbtn(7)">
+                <input type="button" value="8" class="button" onClick="numbtn(8)">
+                <input type="button" value="9" class="button" onClick="numbtn(9)">
+                <input type="button" value="x" class="button" onClick="numbtn('*')">
+                <br>
+                <input type="button" value="4" class="button" onClick="numbtn(4)">
+                <input type="button" value="5" class="button" onClick="numbtn(5)">
+                <input type="button" value="6" class="button" onClick="numbtn(6)">
+                <input type="button" value="-" class="button" onClick="numbtn('-')">
+                <br>
+                <input type="button" value="1" class="button" onClick="numbtn(1)">
+                <input type="button" value="2" class="button" onClick="numbtn(2)">
+                <input type="button" value="3" class="button" onClick="numbtn(3)">
+                <input type="button" value="+" class="button" onClick="numbtn('+')">
+                <br>
+                <input type="button" value="0" class="button0" onClick="numbtn(0)">
+                <input type="button" value="." class="button" onClick="numbtn('.')">
+                <input type="button" value="=" class="button" onClick="numbtn('=')">
+            </div>
+        </div>
+    </div>
+    <script src="js/js.js"></script>
 </body>
 
 </html>
